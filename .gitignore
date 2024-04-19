@@ -1,0 +1,64 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+system/tmp/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+# Generated files
+application/logs/*
+application/cache/*
+system/tmp/*
+
+# Environment specific files
+application/config/database.php
+application/config/*.env
+
+# Vendor directory
+vendor/
+
+# IDE/Editor specific files
+.idea/*
+.vscode/*
+*.sublime*
+*.vimrc
+*.emacs
+
+# Testing frameworks (if applicable)
+phpunit/*
+tests/*
+
+# Additional files (optional)
+application/autoload.php
+system/cache/index.html
+application/cache/.htaccess
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
